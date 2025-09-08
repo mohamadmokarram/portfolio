@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 RESUME_INFO.json
-README.md
 
 # echo "RESUME_INFO.json"
 
