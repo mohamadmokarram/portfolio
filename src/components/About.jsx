@@ -15,7 +15,7 @@ export default function About() {
             </figure>
           </div>
           {/* about txt */}
-          <div className="w-full md:w-3/5 p-8">
+          <div className="w-full md:w-3/5 p-1 md:p-8">
             <SectionTitle
               title="about me"
               shadowTxt="about"
@@ -28,14 +28,14 @@ export default function About() {
               roles, leveraging strong project management skills to deliver
               efficient solutions and thrive in collaborative environments.
             </p>
-            <div className="w-full md:w-2/3 flex gap-4 p-2">
+            <div className="w-full lg:w-2/3 flex gap-4 p-2">
               <ul className="grow-1">
-                <ListItem value="name:" txtColor="text-white" />
-                <ListItem value="Date of birth:" txtColor="text-white" />
-                <ListItem value="email:" txtColor="text-white" />
-                <ListItem value="phone:" txtColor="text-white" />
+                <ListItem title="name :" value="Mohamad Mokarram" />
+                <ListItem title="Date of birth :" value="June 21, 1992" />
+                <ListItem title="email :" value="mokarram.mohamad@gmail.com" />
+                <ListItem title="phone :" value="+98 996 006 7196" />
               </ul>
-              <ul className="pl-5 grow-2">
+              {/* <ul className="pl-5 grow-2">
                 <ListItem
                   bold={false}
                   value="mohamad mokarram"
@@ -56,7 +56,7 @@ export default function About() {
                   value="+98 996 006 7196"
                   txtColor="text-textdark"
                 />
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>
