@@ -12,7 +12,7 @@ export default function Header() {
     setMenuIsOpen(prevState => !prevState);
   }
   return (
-    <div className="max-w-[1280px] mx-auto">
+    <div className="max-w-[1280px] mx-auto first-container">
       <header className="h-screen flex flex-col" id="home">
         <Nav
           handleMenu={handleClickMenu}
