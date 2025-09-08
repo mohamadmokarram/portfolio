@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Container from "./Container.jsx";
 import Logo from "./Logo.jsx";
-import MenuList from "./menuList.jsx";
+import MenuList from "./MenuList.jsx";
 
 export default function Nav({ handleMenu, mobileView, menuIsOpen }) {
   const [fixed, setFixed] = useState(false);
