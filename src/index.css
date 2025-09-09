@@ -45,12 +45,6 @@ header .material-symbols-outlined {
   }
 }
 
-@layer utilities {
-  .showme {
-    @apply outline outline-white;
-  }
-}
-
 @keyframes showmenu {
   from {
     position: fixed;
