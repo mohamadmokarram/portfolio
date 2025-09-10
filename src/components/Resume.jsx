@@ -50,9 +50,7 @@ export default function Resume() {
             shadowClasses="left-[35%]"
           />
           <p className="w-full px-4 md:px-0 md:w-2/3 text-textdark mx-auto text-center">
-            A small river named Duden flows by their place and supplies it with
-            the necessary regelialia. It is a paradisematic country, in which
-            roasted parts of sentences fly into your mouth.
+            A journey of growth and expertises.
           </p>
           {error && (
             <p className="text-textdark text-center">
