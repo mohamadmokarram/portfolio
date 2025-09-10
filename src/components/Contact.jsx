@@ -23,8 +23,9 @@ export default function Contact() {
             shadowClasses="left-[35%]"
           />
           <p className="w-full px-4 md:px-0 md:w-2/3 text-textdark mx-auto text-center">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia
+            Feel free to reach out to me through the platforms below. I'm always
+            open to discussing new projects, creative ideas, or opportunities to
+            be part of your vision.
           </p>
           <div className="animate-fadeup flex flex-col md:flex-row flex-wrap mt-14">
             <ContactItem
