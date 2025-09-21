@@ -21,7 +21,7 @@ export default function HeaderTxt() {
           </button>
           <button className="mt-8 lg:mt-0">
             <a
-              href="/src/assets/Mokaram.Front-Developer.pdf"
+              href="/Mokaram.Front-Developer.pdf"
               className="text-white text-sm font-semibold p-3 px-4 rounded-full border border-gray-400 uppercase duration-200 hover:text-base hover:border-base"
               download>
               Download CV
