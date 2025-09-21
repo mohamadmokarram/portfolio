@@ -11,13 +11,23 @@ export default function HeaderTxt() {
           mokaram
         </h2>
         <p className="text-white text-xl md:text-3xl">A Front End Developer</p>
-        <button className="mt-3">
-          <a
-            href="#projects"
-            className="text-white text-sm font-semibold p-3 px-4 rounded-full border border-gray-400 uppercase duration-200 hover:text-base hover:border-base">
-            My Works
-          </a>
-        </button>
+        <div className="flex flex-col lg:flex-row lg:items-center lg:gap-4 lg:mt-4">
+          <button className="mt-3 lg:mt-0">
+            <a
+              href="#projects"
+              className="text-white text-sm font-semibold p-3 px-4 rounded-full border border-gray-400 uppercase duration-200 hover:text-base hover:border-base">
+              My Works
+            </a>
+          </button>
+          <button className="mt-8 lg:mt-0">
+            <a
+              href="/src/assets/Mokaram.Front-Developer.pdf"
+              className="text-white text-sm font-semibold p-3 px-4 rounded-full border border-gray-400 uppercase duration-200 hover:text-base hover:border-base"
+              download>
+              Download CV
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
