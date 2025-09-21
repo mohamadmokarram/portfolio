@@ -20,11 +20,13 @@ export default function Skills() {
         </p>
         <div className="flex flex-wrap mt-10">
           <SkillItem skillName="HTML5" percent="90%" />
-          <SkillItem skillName="Tailwind" percent="85%" />
           <SkillItem skillName="CSS" percent="90%" />
-          <SkillItem skillName="React" percent="70%" />
-          <SkillItem skillName="JavaScript" percent="80%" />
+          <SkillItem skillName="JavaScript" percent="90%" />
+          <SkillItem skillName="Tailwind" percent="95%" />
+          <SkillItem skillName="React" percent="90%" />
           <SkillItem skillName="NextJs" percent="60%" />
+          <SkillItem skillName="React Router" percent="80%" />
+          <SkillItem skillName="Redux Toolkit" percent="80%" />
         </div>
       </section>
     </Container>
