@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <Container>
-        <section className="h-screen w-full mx-auto flex md:mt-4" id="about">
+        <section className="lg:h-screen w-full mx-auto flex md:mt-4" id="about">
           {/* photo section */}
           <div className="hidden md:block md:w-2/5">
             <figure className="p-8 w-[92%] h-[92%]">

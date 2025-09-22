@@ -7,7 +7,7 @@ export default function Skills() {
     <Container>
       <section
         id="skills"
-        className="h-screen w-full flex flex-col justify-center">
+        className="lg:h-screen w-full flex flex-col justify-center">
         <SectionTitle
           title="my skills"
           shadowTxt="skills"
