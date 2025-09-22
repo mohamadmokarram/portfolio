@@ -35,7 +35,7 @@ header .material-symbols-outlined {
 
 @layer components {
   .container {
-    @apply mx-auto flex flex-col md:flex-row;
+    @apply mx-auto flex flex-col md:flex-row overflow-hidden;
   }
   .black-layer {
     @apply after:content-[''] after:w-full after:h-full after:bg-slate-800/50 after:absolute after:top-0 after:left-0;

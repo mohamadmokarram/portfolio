@@ -1,7 +1,7 @@
 import myImg from "../assets/mokaram.png";
 export default function HeaderPhoto({ isMobile }) {
   return (
-    <div className="w-full relative md:w-3/5 overflow-hidden flex justify-center items-center">
+    <div className="w-full pointer-events-none relative md:w-3/5 overflow-hidden flex justify-center items-center">
       <div
         className={`w-full h-full absolute ${isMobile ? "black-layer" : ""}`}>
         <img
