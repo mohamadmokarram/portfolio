@@ -42,10 +42,10 @@ export default function MenuList({ menuIsOpen, mobileView, onCloseMenu }) {
   }, []);
 
   const baseClasses =
-    "flex w-full flex-col md:flex-row md:justify-end md:gap-4 pl-6 relative z-20";
+    "flex w-full flex-col md:flex-row md:justify-end md:gap-4 pl-6 relative";
 
   const mobileClasses = menuIsOpen
-    ? "z-[50] h-fit pb-4 translate-y-0 opacity-100 visible transition-all duration-500 ease-in-out"
+    ? "z-[100] relative h-fit pb-4 translate-y-0 opacity-100 visible transition-all duration-500 ease-in-out"
     : "h-0 -translate-y-8 opacity-0 invisible transition-all duration-500 ease-in-out";
 
   return (
