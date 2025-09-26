@@ -1,7 +1,7 @@
 import Container from "./Container.jsx";
 import SectionTitle from "./SectionTitle.jsx";
 import ListItem from "./ListItem.jsx";
-import myImg from "../assets/mokaram.png";
+import myImg from "../assets/mokaram.webp";
 
 export default function About() {
   return (
