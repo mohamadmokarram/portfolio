@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import Container from "./Container.jsx";
 import SectionTitle from "./SectionTitle.jsx";
 import testimonialImg from "../assets/testimonial.jpg";
-import parallaxImg from "../assets/parralax.png";
-import playerImg from "../assets/player.png";
+import parallaxImg from "../assets/parallax.webp";
+import playerImg from "../assets/player.webp";
 import softImg from "../assets/soft98.jpg";
 import todolistImg from "../assets/todolist.png";
-import weatherImg from "../assets/weather.png";
+import weatherImg from "../assets/weather.webp";
 
 const url = "https://687569a7814c0dfa65387b41.mockapi.io/projects";
 
