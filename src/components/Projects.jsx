@@ -7,11 +7,13 @@ import playerImg from "../assets/player.webp";
 import softImg from "../assets/soft98.jpg";
 import todolistImg from "../assets/todolist.png";
 import weatherImg from "../assets/weather.webp";
+import OnlineShopImg from "../assets/online-shop.webp";
 
 const url = "https://687569a7814c0dfa65387b41.mockapi.io/projects";
 
 const imgadds = [
   undefined,
+  OnlineShopImg,
   testimonialImg,
   parallaxImg,
   weatherImg,
@@ -59,7 +61,13 @@ export default function Projects() {
                 <div
                   key={project.id}
                   className={`animate-fadeup w-full p-3 ${
-                    project.width === "small" ? "md:w-2/5" : "md:w-3/5"
+                    project.width === "small"
+                      ? "md:w-2/5"
+                      : project.width === "big"
+                      ? "md:w-3/5"
+                      : project.width === "whole"
+                      ? "md:w-full"
+                      : ""
                   }`}>
                   <a href={project.link} target="_blank" className="group">
                     <figure className="w-full h-full">
