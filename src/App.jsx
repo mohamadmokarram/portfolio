@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Skills from "./components/Skills-Section.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
-
+import ScrollTopBtn from "./components/scrollTopBtn.jsx";
 
 function App() {
   useEffect(() => {
@@ -33,6 +33,7 @@ function App() {
       <Projects />
       {/* contact me */}
       <Contact />
+      <ScrollTopBtn />
     </WindowSizeProvider>
   );
 }
