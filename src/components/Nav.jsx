@@ -20,7 +20,7 @@ export default function Nav({ handleMenu, mobileView, menuIsOpen }) {
   //   return () => window.removeEventListener("scroll", handleWindowScroll);
   // }, []);
 
-  let navClasses = `bg-default-black w-full fixed top-0 z-[200]`;
+  let navClasses = `bg-default-black w-full fixed top-0 left-0 z-[200]`;
 
   // if (fixed) {
   //   // navClasses += " fixed top-0 z-20";
