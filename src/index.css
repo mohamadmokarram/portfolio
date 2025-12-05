@@ -8,12 +8,13 @@ html {
 @font-face {
   font-family: "poppins";
   src: url(assets/fonts/Poppins-Black.ttf) format("truetype");
-  font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "poppins-light";
   src: url(assets/fonts/Poppins-Light.ttf) format("truetype");
+  font-display: swap;
 }
 
 * {
