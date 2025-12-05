@@ -3,7 +3,7 @@
 const isProd = import.meta.env.PROD;
 export default function HeaderPhoto({ isMobile }) {
   const imgSrc = isProd
-    ? "/.netlify/images?url=/assets/mokaram.webp&fm=webp"
+    ? "/.netlify/images?url=/assets/mokaram-BeNO58Ig.webp"
     : "/src/assets/mokaram.webp";
 
   return (
