@@ -12,7 +12,7 @@ export default function Logo({ title, onClickMenu }) {
         className="material-symbols-outlined hamburger-menu">
         menu
       </span> */}
-      <button className="text-white cursor-pointer pr-2" onClick={onClickMenu}>
+      <button className="hamburger-menu" onClick={onClickMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"

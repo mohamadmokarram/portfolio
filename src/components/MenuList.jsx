@@ -62,7 +62,7 @@ export default function MenuList({ menuIsOpen, mobileView, onCloseMenu }) {
               onClick={() => setactive(listItem.title)}
               className={`${
                 active === listItem.title ? "text-base" : "text-white"
-              }  text-[18px] pt-4 font-poppins hover:text-amber-400 duration-300`}
+              }  text-[18px] pt-4 hover:text-amber-400 duration-300`}
               key={listItem.id}>
               <a
                 className="block px-3"
